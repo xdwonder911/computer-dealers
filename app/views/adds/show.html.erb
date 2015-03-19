@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @add.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @add.description %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @add.price %>
+</p>
+
+<%= link_to 'Edit', edit_add_path(@add) %> |
+<%= link_to 'Back', adds_path %>
